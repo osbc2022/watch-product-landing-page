@@ -13,16 +13,16 @@ body:
       label: ✏️ Describe the bug
       description: Give a brife description of the bug
       placeholder: Describe Your Issue Here ...
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: screenshots
     attributes:
       label: 📸 Screenshots
       description: Give Screenshots if available
       placeholder: you can copy paste a image or just drag and drop files here..
-      validations:
-        required: false
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |

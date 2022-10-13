@@ -13,16 +13,16 @@ body:
       label: ✏️ Description
       description: Give a brief description of the feature you want to add
       placeholder: write about your feature here...
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: screenshots
     attributes:
       label: 📸 Screenshots
       description: Give Screenshots if available
       placeholder: you can copy paste a image or just drag and drop files here..
-      validations:
-        required: false
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |

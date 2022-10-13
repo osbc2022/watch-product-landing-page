@@ -1,0 +1,30 @@
+name: 🔆 Feature Request
+description: Have a new idea/feature? Please suggest!
+title: '[FEAT] :'
+labels: ['feature']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add value to the project 💝 !
+  - type: textarea
+    id: description
+    attributes:
+      label: ✏️ Description
+      description: Give a brief description of the feature you want to add
+      placeholder: write about your feature here...
+      validations:
+        required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots
+      description: Give Screenshots if available
+      placeholder: you can copy paste a image or just drag and drop files here..
+      validations:
+        required: false
+  - type: markdown
+    attributes:
+      value: |
+        Before Submitting Make Sure To See a Preview Of This Message.. 🤗
+    

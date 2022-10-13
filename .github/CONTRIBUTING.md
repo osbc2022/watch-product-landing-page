@@ -7,26 +7,27 @@
 
 | Topics               | links to each section |
 |----------------------|-----------------------|
-|Create a issue        |[link]()       |
-|Fork the repo         |[link]()       |
-|Clone the repo        |[link]()       |
-|Add remote links      |[link]()       |
-|Create a branch       |[link]()       |
-|Make changes          |[link]()       |
-|Stage, commit & push  |[link]()       |
-|Make a PR :smile:     |[link]()       |
+|Create a issue        |[link](https://github.com/osbc2022/watch-product-landing-page/edit/main/.github/CONTRIBUTING.md#-create-a-issue--ask-to-get-assigned-to-existing-issues--)       |
+|Fork the repo         |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#1-fork-the-project-)       |
+|Clone the repo        |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#2-clone-the-fork-)       |
+|Add remote links      |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#3-add-remote-links-)       |
+|Create a branch       |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#4-create-a-branch)       |
+|Make changes          |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#5-make-required-changes-smile)       |
+|Stage, commit & push  |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#6-stage-commit--push-)       |
+|Make a PR :smile:     |[link](https://github.com/osbc2022/watch-product-landing-page/blob/main/.github/CONTRIBUTING.md#7-make-a-pr-pull-request)       |
 
 </p>
 
 </details>
 
-## Create a issue / ask to get assigned to existing issues :-
+## 👣 Create a issue / ask to get assigned to existing issues :-
 - the repository in which you want to contribute, in this case `osbc2022/watch-product-landing-page`, we will call this the __*"original repo"*__
 - In the original repo look at the top bar of the code folders and go to `issues`
-
+![image](https://user-images.githubusercontent.com/115569958/195557470-3a357601-bbc2-4122-86a2-15c681cb1725.png)
   - check if your issue is already present by searching or simply scrolling down through all the issue :sweat_smile:, now there could be 2 senarios:-
     1. __if your issue is not previosly present :-__
       - go on create a new issue, and comment below mentioning the admin to assign the issue to you
+      ![image](https://user-images.githubusercontent.com/115569958/195557689-66b44559-36b1-4f9f-aa2c-f2c94e6e5f6b.png)
       - wait until you get the issue assigned to you , make sure have enabled notifications ([click to know more]()).
     2. __if your issue is already present :-__
       - check if it is assigned to any one, you can do this by checking the comments, if you se something like `obsc2022 assigned "any-user-name"`, then it's alredy assigned to someone find some other issue. If it's not assigned to any one then comment and ask to be assigned (you can also check the lables)
@@ -36,6 +37,7 @@
 ## 1) Fork the project :
 
 - Check on the upper right corner of the original repo and `fork` the project by clicking on it.
+![image](https://user-images.githubusercontent.com/115569958/195557924-70f4d366-9587-49c2-8311-d7adb36fb824.png)
 - This will create a copy of the project in your repositories section. example `your-github-user-name/watch-product-landing-page` we will call this a __*"forked repo"*__
 
 <br/>
@@ -131,12 +133,12 @@ $ git push -u origin "branch-name"
 Now you will be able to see the pull request button or contribue button on your forked repo in the github, now just go on and make a pull request and do not forget to mention the issue number you solved :point_right: `closes #1` , :heart: happy contributing :smile:
 
 
-### Check out these resources before you get started:-
+### 📌 Check out these resources before you get started:-
 
 or you can just check them on the go, when required
 
 |Description of the resources| links |
 |----------------------------|-------|
-|write proper issues         | [link]()|
 |write proper commit messages| [link]()|
 |code od conduct             |[link]()|
+|licence                     |[link]()|

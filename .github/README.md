@@ -15,15 +15,15 @@ All contributions are welcomed. Even if it's your 1st, 2nd, 3rd or 100th you can
 - we are going to make it with only HTML & CSS
 - we are making a Watch product landing page, so every thing should be in that prespective
 - you can add features like login, buy product page, animations etc.
-- what we are missing in the website are your ideas and features, so check the "[Contribution Guidelines](./.github/CONTRIBUTING.md)" and start contributing
+- what we are missing in the website are your ideas and features, so check the "[Contribution Guidelines](./CONTRIBUTING.md)" and start contributing
 
-## How To Contribute ?
-check our "<b>[Contribution Guidelines](./.github/CONTRIBUTING.md)</b>" 📜 and follow the instruction
+## 📌 How To Contribute ?
+check our "<b>[Contribution Guidelines](./CONTRIBUTING.md)</b>" 👀 and follow the instruction 📜
 
-<hr>
+---
 
 <h3 align=center> Contribution Is Fun ❤️ </h3>
 
-<hr>
+---
 
 <h2 align=center> Star ⭐ the Repository, If You Learned Something New </h2>

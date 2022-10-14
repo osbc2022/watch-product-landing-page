@@ -1,11 +1,15 @@
 <h1 align="center"> Product(⌚) Landing Page Templete </h1>
 
 ![image](https://user-images.githubusercontent.com/115569958/195849506-eb3b7f28-3606-4dee-ba6e-492e5abf670e.png)
-<div align="center"> __🧿 live preview__ [click here 👀](https://osbc2022.github.io/watch-product-landing-page/) </div>
+<h3 align="center">
 
-<h2 align=center> A open source website template for watch </h2>
+__🧿 live preview__ [click here 👀](https://osbc2022.github.io/watch-product-landing-page/) 
 
-we aim to make more people indulge into open source and we are doing this by allowing beginners to start with  easy level projects because most often projects are not really beginner. With the help of this beginners can learn the gihub workflow and start their their open source journey
+</h3>
+
+<h2 align=center> Appla watch :- open source website template for watch </h2>
+
+we aim to make more people indulge into open source and we are doing this by allowing beginners to start with  easy level projects because most often projects are not really for beginner. With the help of this beginners can learn the gihub workflow and start their their open source journey
 
 ## Technologies Used :
 ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -13,6 +17,7 @@ we aim to make more people indulge into open source and we are doing this by all
 
 ## Who Can Contribute ?
 All contributions are welcomed. Even if it's your 1st, 2nd, 3rd or 100th you can add value to the project.
+ > check our "<b>[Contribution Guidelines](./CONTRIBUTING.md)</b>" 👀 and follow the instruction 📜
 
 ## Scope of the projects :
 - we are going to make it with only HTML & CSS

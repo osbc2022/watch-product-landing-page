@@ -1,5 +1,8 @@
 <h1 align="center"> Product(⌚) Landing Page Templete </h1>
 
+![image](https://user-images.githubusercontent.com/115569958/195849506-eb3b7f28-3606-4dee-ba6e-492e5abf670e.png)
+<div align="center"> __🧿 live preview__ [click here 👀](https://osbc2022.github.io/watch-product-landing-page/) </div>
+
 <h2 align=center> A open source website template for watch </h2>
 
 we aim to make more people indulge into open source and we are doing this by allowing beginners to start with  easy level projects because most often projects are not really beginner. With the help of this beginners can learn the gihub workflow and start their their open source journey

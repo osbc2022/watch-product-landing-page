@@ -1,0 +1,49 @@
+/*------- fonts ----------*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/*---------variables---------*/
+:root{
+    ---primary300:rgba(68, 68, 255, 1);
+    --bg: #f3f3f3;
+}
+/*---------- all componets style ---------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*------------- skeleton style -----------*/
+body{
+    background-color: var(--bg);
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: rgb(52, 52, 52);
+    font-size: 17px;
+    line-height: 23px;
+}
+button{
+    padding: 10px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/*-------------end skeleton style----------*/
+
+/*-------utility calsses---------*/
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

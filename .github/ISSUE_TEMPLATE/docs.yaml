@@ -1,7 +1,7 @@
 name: 📑 Documentation Errors
 description: Found errors in documentation? or want to add more value to it?
-title: '[FEAT] :'
-labels: ['feature']
+title: '[DOCS] :'
+labels: ['📑 documentation']
 body:
   - type: markdown
     attributes:

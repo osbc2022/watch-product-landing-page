@@ -1,0 +1,30 @@
+name: 📑 Documentation Errors
+description: Found errors in documentation? or want to add more value to it?
+title: '[FEAT] :'
+labels: ['feature']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add value to the project 💝 !
+  - type: textarea
+    id: description
+    attributes:
+      label: ✏️ Description
+      description: Give a brief description of what changes you want to make
+      placeholder: write the changes you want to make here....
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots
+      description: Give Screenshots if available
+      placeholder: you can copy paste a image or just drag and drop files here..
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Before Submitting Make Sure To See a Preview Of This Message.. 🤗
+    

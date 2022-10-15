@@ -78,3 +78,41 @@ main{
 main img{
     width: 100%;
 }
+/*--------end main style ---------*/ 
+
+/*---------footer style------------*/ 
+footer{
+    padding: 30px;
+    background-color: var(---primary) ;
+}
+footer .foot-logo-holder img{
+    width: 4rem;
+}
+footer .foot-links ul li{
+    list-style-type: none;
+    padding: 5px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+footer .foot-links b{
+    padding-bottom: 10px;
+}
+footer .newsletter{
+    display: flex;
+    flex-direction: column;
+}
+footer .newsletter button{
+    width:fit-content;
+}
+footer .newsletter input{
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+
+/*---------footer style------------*/ 
+
+

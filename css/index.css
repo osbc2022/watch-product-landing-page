@@ -113,6 +113,86 @@ footer .newsletter input{
     outline: none;
 }
 
-/*---------footer style------------*/ 
+/*---------end footer style------------*/ 
 
 
+/* css for mobile devices */
+@media screen and (max-width:767px){
+/*------ header style ---------*/
+    header{
+        background: var(---bg);
+        height: auto;
+        width: 100%;
+    }
+
+    header nav{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(68%2c 68%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c232 C 144%2c295.2 432%2c563.8 720%2c548 C 1008%2c532.2 1296%2c232 1440%2c153L1440 560L0 560z' fill='rgba(243%2c 243%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 15vh;
+    }
+    
+    nav img, nav ul{
+        margin: 10px;
+    }
+
+    nav ul{
+        display:none;
+    }
+
+    .header-flex{
+        /* display:flex; */
+        /* display: contents; */
+        flex-direction: column-reverse;
+    }
+
+    .header-flex .header-content{
+        /* display:flex; */
+        width: 95%;
+        /* height:20%; */
+        margin: 10px;
+        padding: 30px;
+        /* border: 2px solid rgba(255, 255, 255, 0.145); */
+        /* background-color: #ffffffc2; */
+        /* backdrop-filter: blur(30px); */
+        border-radius: 16px;
+        box-shadow: 0 10px 20px 10px rgba(0,0,0,0);
+    }
+
+    .header-flex .header-content h1{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .header-content p{
+        font-size: 15px;
+    }
+
+    .header-flex button{
+        margin-top: 30px;
+        font-size: 17px;
+        /* background-color: transparent; */
+        /* color: black; */
+        /* border: 2px solid black; */
+        /* margin-right: 20px; */
+        margin-left: 20px;
+    }
+
+    .header-flex .watch{
+        height: 100vw;
+        margin:0px;
+        transform: rotateZ(90deg);
+    }
+
+/*------ header style ---------*/ 
+main{
+    padding: 5px;
+}
+
+/* -----footer style------ */
+    footer{
+        overflow-x: hidden;
+    }
+/* -----footer style------ */
+}

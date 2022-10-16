@@ -139,6 +139,6 @@ or you can just check them on the go, when required
 
 |Description of the resources| links |
 |----------------------------|-------|
-|write proper commit messages| [link]()|
-|code od conduct             |[link]()|
-|licence                     |[link]()|
+|write proper commit messages| [link](COMMIT_MESSAGE_PRACTICES.md)|
+|code od conduct             |[link](CODE_OF_CONDUCT.md)|
+|licence                     |[link](../LICENSE)|

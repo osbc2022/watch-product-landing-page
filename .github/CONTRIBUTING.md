@@ -130,7 +130,11 @@ $ git push -u origin "branch-name"
 
 ## 7) Make a PR (Pull Request)
 
-Now you will be able to see the pull request button or contribue button on your forked repo in the github, now just go on and make a pull request and do not forget to mention the issue number you solved :point_right: `closes #1` , :heart: happy contributing :smile:
+- Now you will be able to see the pull request button or contribue button on your forked repo in the github
+- ![PR](https://user-images.githubusercontent.com/83657737/196026428-8960239e-85e3-413e-9f51-5ead662abc27.jpg)
+ __or__
+  ![PR2](https://user-images.githubusercontent.com/83657737/196026457-657dd2dd-5538-4afd-86b6-6b0b06c29daa.jpg)
+  - now just go on and make a pull request and do not forget to mention the issue number you solved :point_right: closes #1`` , :heart: happy contributing :smile:`
 
 
 ### 📌 Check out these resources before you get started:-

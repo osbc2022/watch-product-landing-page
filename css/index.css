@@ -29,7 +29,7 @@ nav img, nav ul{
     margin: 30px;
 }
 nav ul{
-    margin-top: 43px;
+    margin-top: 30px;
 }
 .header-flex .watch{
     height: 80vh;
@@ -149,25 +149,22 @@ footer .newsletter input{
         margin: 10px;
     }
 
+    nav ul li{
+        font-size: 14px;
+        margin-left: 10px;
+    }
     nav ul{
-        display:none;
+        margin-top:30px;
     }
 
-    .header-flex{
-        /* display:flex; */
-        /* display: contents; */
+    .header-flex{ 
         flex-direction: column-reverse;
     }
 
     .header-flex .header-content{
-        /* display:flex; */
         width: 95%;
-        /* height:20%; */
         margin: 10px;
         padding: 30px;
-        /* border: 2px solid rgba(255, 255, 255, 0.145); */
-        /* background-color: #ffffffc2; */
-        /* backdrop-filter: blur(30px); */
         border-radius: 16px;
         box-shadow: 0 10px 20px 10px rgba(0,0,0,0);
     }
@@ -183,10 +180,6 @@ footer .newsletter input{
     .header-flex button{
         margin-top: 30px;
         font-size: 17px;
-        /* background-color: transparent; */
-        /* color: black; */
-        /* border: 2px solid black; */
-        /* margin-right: 20px; */
         margin-left: 20px;
     }
 

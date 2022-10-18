@@ -138,11 +138,11 @@ footer .newsletter input {
   width: 50vw;
   margin: 30px;
   padding: 30px;
-  border: 2px solid rgba(255, 255, 255, 0.145);
-  background-color: #ffffffc2;
-  backdrop-filter: blur(30px);
   border-radius: 15px;
-  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.About-watch{
+   height: 50vh;
 }
 
 
@@ -241,4 +241,7 @@ footer .newsletter input {
     border-radius: 16px;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0);
   }
+  .About-watch{
+    height: 30vh;
+ }
 }

@@ -123,7 +123,10 @@ footer .newsletter input{
     border:none;
     outline: none;
 }
-
+footer .socials img{
+    width: 30px;
+    margin: 10px;
+}
 /*---------end footer style------------*/ 
 
 

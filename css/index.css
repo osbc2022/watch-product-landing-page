@@ -124,6 +124,14 @@ footer .newsletter input{
     outline: none;
 }
 
+footer .copy-rights{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
 /*---------end footer style------------*/ 
 
 

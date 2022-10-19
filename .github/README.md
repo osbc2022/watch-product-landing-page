@@ -31,14 +31,8 @@ check our "<b>[Contribution Guidelines](./CONTRIBUTING.md)</b>" 👀 and follow 
 ---
 
 <h3 align=center> Contribution Is Fun ❤️ </h3>
-
-<div align=center>
-
-    <a href="https://github.com/osbc2022/watch-product-landing-page/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=osbc2022/watch-product-landing-page" />
-      </a>
-
-</div>
+    
+<img src="https://contrib.rocks/image?repo=osbc2022/watch-product-landing-page" />
 
 ---
 

@@ -13,17 +13,6 @@ header nav {
   justify-content: space-between;
   margin-left: 30px;
   margin-right: 30px;
-  animation: fade-in 0.5s ease-in;
-}
-@keyframes fade-in{
-    0%{
-        transform: translateY(100vh);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0px);
-        opacity: 1
-    }
 }
 header nav .logo {
   height: 3rem;
@@ -35,11 +24,6 @@ nav ul li {
   font-weight: bold;
   color: white;
   font-size: 19px;
-transition: 0.2s ease-in-out;
-}
-nav ul li:hover{
-    cursor: pointer;
-    border-bottom: 1px solid white;
 }
 nav img,
 nav ul {
@@ -51,7 +35,6 @@ nav ul {
 .header-flex .watch {
   height: 80vh;
   margin-left: 30px;
-   animation: fade-in 0.7s ease-in;
 }
 .header-flex .header-content {
   width: 50vw;
@@ -62,12 +45,9 @@ nav ul {
   backdrop-filter: blur(30px);
   border-radius: 15px;
   box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
-  transition: 0.3s ease-in-out;
-  animation: fade-in 0.7s ease-in;
 }
-.header-flex .header-content:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 10px 40px 10px rgba(0, 0, 0, 0.1);
+.header-flex .header-content h1 {
+  /* color: white; */
 }
 .header-content p {
     font-weight: bold;
@@ -114,16 +94,10 @@ main .section1 {
     background-color: white;
     padding: 30px;
 }
-.contact .flex-between{
-    gap: 40px;
-}
-.contact input, .contact textarea{
+.contact input{
     padding: 10px;
-    margin-top: 20px;
+    margin: 20px;
     width: 100%;
-}
-.contact button{
-    margin-top: 20px;
 }
 /*--------end main style ---------*/
 
@@ -189,11 +163,6 @@ footer .newsletter input {
 footer .socials img{
     width: 30px;
     margin: 10px;
-    transition: 0.2s ease-in-out;
-}
-footer .socials img:hover{
-    transform: translateY(-3px);
-    filter: drop-shadow(0 5px 10px 2px black);
 }
 
 footer .copy-rights{
@@ -211,6 +180,15 @@ footer .copy-rights{
 /* css for mobile devices */
 @media screen and (max-width: 767px) {
   /*------ header style ---------*/
+    h1{
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
   header {
     background: var(---bg);
     height: auto;

@@ -136,7 +136,8 @@ footer .newsletter input {
   display: flex;
   flex-direction: column;
   width: 50vw;
-  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 30px;
   border-radius: 15px;
 }
@@ -239,6 +240,21 @@ footer .copy-rights{
   footer {
     overflow-x: hidden;
   }
+  footer .container{
+      flex-direction: column;
+  }
+  footer .foot-links ul {
+      width:100%;
+      margin-bottom:20px;
+  }
+  footer .foot-links ul li{
+      display:inline-block;
+      font-size:14px;
+  }
+  footer .newsletter{
+      margin-top:30px;
+      width: 80%;
+  } 
   /* -----footer style------ */
   .About-main-cont {
     flex-direction: column-reverse;
@@ -255,4 +271,5 @@ footer .copy-rights{
   .About-watch{
     height: 30vh;
  }
+
 }

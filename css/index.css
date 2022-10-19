@@ -2,204 +2,245 @@
 @import url(./util.css);
 
 /*---------- header style -----------*/
-header{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(68%2c 68%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c232 C 144%2c295.2 432%2c563.8 720%2c548 C 1008%2c532.2 1296%2c232 1440%2c153L1440 560L0 560z' fill='rgba(243%2c 243%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
+header {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(68%2c 68%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c232 C 144%2c295.2 432%2c563.8 720%2c548 C 1008%2c532.2 1296%2c232 1440%2c153L1440 560L0 560z' fill='rgba(243%2c 243%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
 }
-header nav{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 30px;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-header nav .logo{
-    height: 3rem;
+header nav .logo {
+  height: 3rem;
 }
-nav ul li{
-    display: inline;
-    padding: 10px;
-    margin-left: 30px;
-    font-weight: bold;
-    color: white;
-    font-size: 19px;
+nav ul li {
+  display: inline;
+  padding: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: white;
+  font-size: 19px;
 }
-nav img, nav ul{
-    margin: 30px;
+nav img,
+nav ul {
+  margin: 30px;
 }
-nav ul{
-    margin-top: 30px;
+nav ul {
+  margin-top: 30px;
 }
-.header-flex .watch{
-    height: 80vh;
-    margin-left: 30px;
+.header-flex .watch {
+  height: 80vh;
+  margin-left: 30px;
 }
-.header-flex .header-content{
-    width: 50vw;
-    margin: 30px;
-    padding: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.145);
-    background-color: #ffffffc2;
-    backdrop-filter: blur(30px);
-    border-radius: 15px;
-    box-shadow: 0 10px 20px 10px rgba(0,0,0,0.1);
+.header-flex .header-content {
+  width: 50vw;
+  margin: 30px;
+  padding: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.145);
+  background-color: #ffffffc2;
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
 }
-.header-flex .header-content h1{
-    /* color: white; */
+.header-flex .header-content h1 {
+  /* color: white; */
 }
-.header-content p{
+.header-content p {
     font-weight: bold;
     color: rgb(34, 34, 34);
     margin-top: 10px;
 }
-.header-flex button{
-    margin-top: 30px;
-    font-size: 17px;
-    background-color: transparent;
-    color: black;
-    border: 2px solid black;
-    margin-right: 20px;
+.header-flex button {
+  margin-top: 30px;
+  font-size: 17px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  margin-right: 20px;
 }
-.header-flex #pop{
-    background-color: black;
-    color: white;
+.header-flex #pop {
+  background-color: black;
+  color: white;
 }
-.header-flex button:hover{
-    transition: 0.2s ease-in-out;
-    scale: 1.05;
+.header-flex button:hover {
+  transition: 0.2s ease-in-out;
+  scale: 1.05;
 }
 /*-------end header style -----------*/
 
 /*-----------main style------------*/
-main{
-    padding: 30px;
+main {
+  padding: 30px;
 }
-main img{
-    width: 100%;
+main img {
+  width: 100%;
 }
-main .section1{
-    width: 100%;
-    flex-direction: column !important;
-    margin-top: 30px;
+main .section1 {
+  width: 100%;
+  flex-direction: column !important;
+  margin-top: 30px;
 }
-.section1 h2{
-    margin-bottom: 10px;
+.section1 h2 {
+  margin-bottom: 10px;
 }
-.section1 img{
-    width: 70vw;
+.section1 img {
+  width: 70vw;
 }
-/*--------end main style ---------*/ 
+/*--------end main style ---------*/
 
-/*---------footer style------------*/ 
-footer{
-    padding: 30px;
-    background-color: var(---primary) ;
+/*---------footer style------------*/
+footer {
+  padding: 30px;
+  background-color: var(---primary);
 }
-footer .foot-logo-holder img{
-    width: 4rem;
+footer .foot-logo-holder img {
+  width: 4rem;
 }
-footer .foot-links ul li{
-    list-style-type: none;
-    padding: 5px;
-    padding-bottom: 0;
-    padding-left: 0;
+footer .foot-links ul li {
+  list-style-type: none;
+  padding: 5px;
+  padding-bottom: 0;
+  padding-left: 0;
 }
-footer .foot-links b{
-    padding-bottom: 10px;
+footer .foot-links b {
+  padding-bottom: 10px;
 }
-footer .newsletter{
-    display: flex;
-    flex-direction: column;
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
 }
-footer .newsletter button{
-    width:fit-content;
+footer .newsletter button {
+  width: fit-content;
 }
-footer .newsletter input{
-    padding:10px;
-    margin-top:10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border:none;
-    outline: none;
+footer .newsletter input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
-footer .socials img{
-    width: 30px;
-    margin: 10px;
-}
-/*---------end footer style------------*/ 
 
+.About-main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* start of about style  */
+.About-content {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.About-watch{
+   height: 50vh;
+}
+
+
+.About-content p{
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+    margin-top: 10px;
+}
+
+
+/*---------end footer style------------*/
 
 /* css for mobile devices */
-@media screen and (max-width:767px){
-/*------ header style ---------*/
-    header{
-        background: var(---bg);
-        height: auto;
-        width: 100%;
-    }
+@media screen and (max-width: 767px) {
+  /*------ header style ---------*/
+  header {
+    background: var(---bg);
+    height: auto;
+    width: 100%;
+  }
 
-    header nav{
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(68%2c 68%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c232 C 144%2c295.2 432%2c563.8 720%2c548 C 1008%2c532.2 1296%2c232 1440%2c153L1440 560L0 560z' fill='rgba(243%2c 243%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-        display: flex;
-        justify-content: space-between;
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 15vh;
-    }
-    
-    nav img, nav ul{
-        margin: 10px;
-    }
+  header nav {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(68%2c 68%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c232 C 144%2c295.2 432%2c563.8 720%2c548 C 1008%2c532.2 1296%2c232 1440%2c153L1440 560L0 560z' fill='rgba(243%2c 243%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 15vh;
+  }
 
-    nav ul li{
-        font-size: 14px;
-        margin-left: 10px;
-    }
-    nav ul{
-        margin-top:30px;
-    }
+  nav img,
+  nav ul {
+    margin: 10px;
+  }
 
-    .header-flex{ 
-        flex-direction: column-reverse;
-    }
+  nav ul li {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  nav ul {
+    margin-top: 30px;
+  }
 
-    .header-flex .header-content{
-        width: 95%;
-        margin: 10px;
-        padding: 30px;
-        border-radius: 16px;
-        box-shadow: 0 10px 20px 10px rgba(0,0,0,0);
-    }
+  .header-flex {
+    flex-direction: column-reverse;
+  }
 
-    .header-flex .header-content h1{
-        font-size: 28px;
-        font-weight: 900;
-    }
-    .header-content p{
-        font-size: 15px;
-    }
+  .header-flex .header-content {
+    width: 95%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0);
+  }
 
-    .header-flex button{
-        margin-top: 30px;
-        font-size: 17px;
-        margin-left: 20px;
-    }
+  .header-flex .header-content h1 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .header-content p {
+    font-size: 15px;
+  }
 
-    .header-flex .watch{
-        height: 100vw;
-        margin:0px;
-        transform: rotateZ(90deg);
-    }
+  .header-flex button {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: 20px;
+  }
 
-/*------ header style ---------*/ 
-main{
+  .header-flex .watch {
+    height: 100vw;
+    margin: 0px;
+    transform: rotateZ(90deg);
+  }
+
+  /*------ header style ---------*/
+  main {
     padding: 5px;
-}
+  }
 
-/* -----footer style------ */
-    footer{
-        overflow-x: hidden;
-    }
-/* -----footer style------ */
+  /* -----footer style------ */
+  footer {
+    overflow-x: hidden;
+  }
+  /* -----footer style------ */
+  .About-main-cont {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+
+  .About-content {
+    width: 95%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0);
+  }
+  .About-watch{
+    height: 30vh;
+ }
 }

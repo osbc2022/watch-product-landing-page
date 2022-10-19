@@ -90,6 +90,21 @@ main .section1 {
 .section1 img {
   width: 70vw;
 }
+.contact{
+    background-color: white;
+    padding: 30px;
+}
+.contact .flex-between{
+    gap: 40px;
+}
+.contact input, .contact textarea{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.contact button{
+    margin-top: 20px;
+}
 /*--------end main style ---------*/
 
 /*---------footer style------------*/

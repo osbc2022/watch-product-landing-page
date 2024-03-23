@@ -81,6 +81,7 @@ nav ul {
   color: black;
   border: 2px solid black;
   margin-right: 20px;
+  cursor:pointer;
 }
 .header-flex #pop {
   background-color: black;
@@ -111,20 +112,39 @@ main .section1 {
   width: 70vw;
 }
 .contact{
-    background-color: white;
+    background-color: #e8e7e7;
     padding: 30px;
+    border-radius:6px;
 }
 .contact .flex-between{
     gap: 40px;
 }
 .contact input, .contact textarea{
     padding: 10px;
+
     margin-top: 20px;
     width: 100%;
+    border:none;
+    border-radius:20px;
+    box-shadow:0 0 6px rgba(0,0,0,0.4);
+
+}.contact textarea{
+  resize:none;
+}
+::placeholder{
+  padding-left:7px;
 }
 .contact button{
     margin-top: 20px;
+    cursor: pointer;
 }
+.contact button:hover{
+  box-shadow:0 0 6px rgba(0,0,0,0.4);
+  
+}
+
+
+
 /*--------end main style ---------*/
 
 /*---------footer style------------*/
@@ -297,13 +317,15 @@ footer .copy-rights{
       margin-bottom:20px;
   }
   footer .foot-links ul li{
-      display:inline-block;
-      font-size:14px;
+    display:inline-block;
+    font-size:14px;
   }
   footer .newsletter{
-      margin-top:30px;
-      width: 80%;
+    margin-top:30px;
+    width: 80%;
   } 
+ 
+  
   /* -----footer style------ */
   .About-main-cont {
     flex-direction: column-reverse;
